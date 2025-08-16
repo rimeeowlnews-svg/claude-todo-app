@@ -27,7 +27,7 @@ export default function ViewTabs({ currentView, onViewChange, counts }: ViewTabs
           onClick={() => onViewChange(tab.key)}
           className={`flex-1 py-3 px-4 text-sm font-medium text-center border-b-2 transition-colors ${
             currentView === tab.key
-              ? 'border-blue-500 text-blue-600'
+              ? 'border-gray-500 text-gray-600'
               : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'
           }`}
         >

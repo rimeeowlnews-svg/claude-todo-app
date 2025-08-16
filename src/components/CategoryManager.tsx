@@ -12,12 +12,12 @@ interface CategoryManagerProps {
 }
 
 const CATEGORY_COLORS = [
-  'bg-blue-100 text-blue-800',
-  'bg-green-100 text-green-800',
-  'bg-purple-100 text-purple-800',
-  'bg-pink-100 text-pink-800',
-  'bg-yellow-100 text-yellow-800',
-  'bg-indigo-100 text-indigo-800',
+  'bg-gray-100 text-gray-800',
+  'bg-slate-100 text-slate-800',
+  'bg-zinc-100 text-zinc-800',
+  'bg-neutral-100 text-neutral-800',
+  'bg-stone-100 text-stone-800',
+  'bg-gray-200 text-gray-900',
 ];
 
 export default function CategoryManager({
@@ -91,7 +91,7 @@ export default function CategoryManager({
                 }
               }}
               placeholder="카테고리 이름"
-              className="px-2 py-1 text-sm border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="px-2 py-1 text-sm border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-gray-500"
               autoFocus
             />
             <button
